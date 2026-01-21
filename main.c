@@ -379,7 +379,7 @@ static char *build_reaction_html(void) {
     strncat(p,
         "<div class=\"glass shell\">"
         "<span class=\"tag\">Reflex</span>"
-        "<h1>⚡ Reaction Speed</h1>"
+        "<h1> Reaction Speed</h1>"
         "<p class=\"muted\">3 trials. Click only when the box turns cyan. False starts count.</p>"
         "<div class=\"hud\">"
         " <div class=\"glass\"><div class=\"muted\">Trial</div><div class=\"big\" id=\"trial\">1/3</div></div>"
@@ -534,7 +534,7 @@ static char *build_aim_html(void) {
     strncat(p,
         "<div class=\"glass shell\">"
         "<span class=\"tag\">Accuracy</span>"
-        "<h1>🎯 Aim Trainer</h1>"
+        "<h1> Aim Trainer</h1>"
         "<p class=\"muted\">20 hits. Speed ramps up. Records completion time.</p>"
         "<div class=\"hud\">"
         " <div class=\"glass\"><div class=\"muted\">Hits</div><div class=\"big\" id=\"hits\">0/20</div></div>"
@@ -618,7 +618,7 @@ static char *build_memory_html(void) {
     strncat(p,
         "<div class=\"glass shell\">"
         "<span class=\"tag\">Memory</span>"
-        "<h1>🧠 Memory Tiles</h1>"
+        "<h1> Memory Tiles</h1>"
         "<p class=\"muted\">Watch the 5-tile sequence, then repeat it. One mistake ends the run.</p>"
         "<div class=\"hud\">"
         " <div class=\"glass\"><div class=\"muted\">Progress</div><div class=\"big\" id=\"prog\">0/5</div></div>"
@@ -812,7 +812,7 @@ static char *build_stroop_html(void) {
     strncat(p,
         "<div class=\"glass shell\">"
         "<span class=\"tag\">Attention</span>"
-        "<h1>🧩 Stroop Sprint</h1>"
+        "<h1> Stroop Sprint</h1>"
         "<p class=\"muted\">Click the <b>COLOR OF THE TEXT</b>, not the word. 30 seconds.</p>"
         "<div class=\"hud\">"
         " <div class=\"glass\"><div class=\"muted\">Time Left</div><div class=\"big\" id=\"t\">30</div></div>"
